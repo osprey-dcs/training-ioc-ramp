@@ -1,0 +1,6 @@
+record(calc, "$(P)Ramp") {
+    field(INPA, "$(P)Ramp")
+    field(INPB, "100")
+    field(SCAN, "1 second")
+    field(CALC, "A<B?A+1:0")
+}
