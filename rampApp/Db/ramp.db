@@ -3,5 +3,5 @@ record(calc, "$(P)Ramp") {
     field(INPB, "100")
     field(SCAN, "1 second")
     field(CALC, "A<B?A+1:0")
-    alias("SAWTOOTH")
+    alias("$(P)SAWTOOTH")
 }
