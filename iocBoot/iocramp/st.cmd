@@ -14,7 +14,7 @@ dbLoadDatabase "../../dbd/ramp.dbd"
 ramp_registerRecordDeviceDriver(pdbbase) 
 
 ## Load record instances
-dbLoadRecords("../../db/ramp.db","P=LLNL_2026_Test:")
+dbLoadRecords("../../db/ramp.db","P=LLNLDemo:")
 
 iocInit()
 
